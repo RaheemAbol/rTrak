@@ -84,6 +84,12 @@ id,name,position,manager,hire-date,exit-date
 
 This chart shows the retention rates of different managers over the specified number of years.
 
+## Screenshot
+
+![Retention Tracking Chart](rtrak2.PNG)
+
+This chart shows the retention rates of different managers over the specified number of years.
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
