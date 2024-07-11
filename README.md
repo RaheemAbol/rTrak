@@ -1,7 +1,3 @@
-Here's a detailed README for your retention tracking application, including the image you provided:
-
----
-
 # Retention Tracking Application
 
 This is a Spring Boot application for tracking employee retention rates. Users can upload CSV files containing employee data, and the application calculates and displays retention rates for different managers over a specified number of years.
@@ -28,8 +24,8 @@ This is a Spring Boot application for tracking employee retention rates. Users c
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd retention-tracking-application
+    git clone https://github.com/RaheemAbol/rTrak.git
+    cd rTrak
     ```
 
 2. Set up the MySQL database:
@@ -82,24 +78,3 @@ id,name,position,manager,hire-date,exit-date
 3,Richard Roe,QA Engineer,Alice Smith,2021-08-01,2023-01-15
 4,Mary Major,UI/UX Designer,Carol King,2018-03-12,2021-11-30
 ...
-```
-
-## Screenshot
-
-![Retention Tracking Chart](./path/to/rTrakimg.PNG)
-
-This chart shows the retention rates of different managers over the specified number of years.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This README file provides a comprehensive overview of the application, including installation steps, usage instructions, and a screenshot of the retention tracking chart. Make sure to replace `<repository_url>` with the actual URL of your repository and update the image path in the `![Retention Tracking Chart](./path/to/rTrakimg.PNG)` line to the correct path where you store the image in your project.
-
-Let me know if you need any further adjustments!
