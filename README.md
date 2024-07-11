@@ -1,3 +1,6 @@
+Sure, here is the complete README file with the correct format, including the image:
+
+```markdown
 # Retention Tracking Application
 
 This is a Spring Boot application for tracking employee retention rates. Users can upload CSV files containing employee data, and the application calculates and displays retention rates for different managers over a specified number of years.
@@ -78,3 +81,21 @@ id,name,position,manager,hire-date,exit-date
 3,Richard Roe,QA Engineer,Alice Smith,2021-08-01,2023-01-15
 4,Mary Major,UI/UX Designer,Carol King,2018-03-12,2021-11-30
 ...
+```
+
+## Screenshot
+
+![Retention Tracking Chart](rTrakimg.PNG)
+
+This chart shows the retention rates of different managers over the specified number of years.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+
+## License
+
+This project is licensed under the MIT License.
+```
+
+Make sure that the image file `rTrakimg.PNG` is indeed located in the root directory of your project repository. This will ensure that the image is correctly displayed in your README file when viewed on GitHub.
