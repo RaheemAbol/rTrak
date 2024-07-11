@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Upload CSV</title>
+</head>
+<body>
+<nav>
+    <a th:href="@{/}">Home</a> |
+    <a th:href="@{/upload}">Upload CSV</a> |
+    <a th:href="@{/hub}">View Charts</a>
+</nav>
+<h1>Upload CSV</h1>
+<form th:action="@{/upload}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+</form>
+<p th:text="${message}"></p>
+</body>
+</html>

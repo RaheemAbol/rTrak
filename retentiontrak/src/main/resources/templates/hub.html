@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Charts Hub</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+</head>
+<body>
+<h1>Charts Hub</h1>
+<nav>
+    <a th:href="@{/}">Home</a> |
+    <a th:href="@{/upload}">Upload CSV</a> |
+    <a th:href="@{/hub}">View Charts</a>
+</nav>
+<div>
+    <label for="years">Enter number of years:</label>
+    <input type="number" id="years" name="years" min="1" value="1">
+    <button onclick="updateChart()">Update Chart</button>
+</div>
+<canvas id="retentionChart"></canvas>
+<script>
+    let retentionChart;
+
+    function updateChart() {
+        const years = document.getElementById('years').value;
+        fetch(`/api/retention-data?years=${years}`)
+            .then(response => response.json())
+            .then(data => {
+                const ctx = document.getElementById('retentionChart').getContext('2d');
+                const chartData = {
+                    labels: Object.keys(data),
+                    datasets: [{
+                        label: 'Retention Rate (%)',
+                        data: Object.values(data),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                };
+                if (retentionChart) {
+                    retentionChart.data = chartData;
+                    retentionChart.update();
+                } else {
+                    retentionChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: chartData,
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    min: 0,
+                                    max: 100,
+                                    ticks: {
+                                        callback: function(value) {
+                                            return value + '%';
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+            });
+    }
+
+    // Initial load
+    document.addEventListener('DOMContentLoaded', updateChart);
+</script>
+</body>
+</html>
