@@ -18,4 +18,10 @@ public class EmployeeRestController {
     public Map<String, Double> getRetentionData(@RequestParam int years) {
         return employeeService.getRetentionRates(years);
     }
+
+
+    @GetMapping("/api/position-allocation")
+    public Map<String, Double> getPositionAllocation(@RequestParam String position) {
+        return employeeService.getPositionAllocation(position);
+    }
 }

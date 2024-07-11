@@ -70,4 +70,20 @@ public class EmployeeService {
                     return (double) retainedEmployees / totalEmployees * 100; // Return percentage
                 }));
     }
+
+    public Map<String, Double> getPositionAllocation(String position) {
+        List<Employee> employees = employeeRepository.findAll();
+        Map<String, List<Employee>> groupedByManager = employees.stream()
+                .collect(Collectors.groupingBy(Employee::getManager));
+
+        return groupedByManager.entrySet().stream()
+                .collect(Collectors.toMap(Map.Entry::getKey, entry -> {
+                    List<Employee> managerEmployees = entry.getValue();
+                    long totalEmployees = managerEmployees.size();
+                    long positionEmployees = managerEmployees.stream()
+                            .filter(emp -> emp.getPosition().equalsIgnoreCase(position))
+                            .count();
+                    return (double) positionEmployees / totalEmployees * 100; // Return percentage
+                }));
+    }
 }
