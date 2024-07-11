@@ -1,4 +1,3 @@
-```markdown
 # Retention Tracking Application
 
 This is a Spring Boot application for tracking employee retention rates. Users can upload CSV files containing employee data, and the application calculates and displays retention rates for different managers over a specified number of years.
@@ -79,7 +78,7 @@ id,name,position,manager,hire-date,exit-date
 3,Richard Roe,QA Engineer,Alice Smith,2021-08-01,2023-01-15
 4,Mary Major,UI/UX Designer,Carol King,2018-03-12,2021-11-30
 ...
-```
+
 
 ## Screenshot
 
