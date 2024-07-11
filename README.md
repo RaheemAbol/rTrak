@@ -1,5 +1,3 @@
-Sure, here is the complete README file with the correct format, including the image:
-
 ```markdown
 # Retention Tracking Application
 
@@ -97,5 +95,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 This project is licensed under the MIT License.
 ```
-
-Make sure that the image file `rTrakimg.PNG` is indeed located in the root directory of your project repository. This will ensure that the image is correctly displayed in your README file when viewed on GitHub.
