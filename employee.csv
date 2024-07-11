@@ -1,0 +1,41 @@
+id,name,position,manager,hire-date,exit-date
+1,John Doe,Software Engineer,Alice Smith,2020-01-15,2022-03-01
+2,Jane Roe,Product Manager,Bob Johnson,2019-05-20,
+3,Richard Roe,QA Engineer,Alice Smith,2021-08-01,2023-01-15
+4,Mary Major,UI/UX Designer,Carol King,2018-03-12,2021-11-30
+5,James Minor,DevOps Engineer,Bob Johnson,2017-07-25,2020-02-20
+6,Linda Lee,Data Scientist,Carol King,2020-11-05,
+7,Michael Wong,Backend Developer,Alice Smith,2019-10-30,2022-08-10
+8,Sarah Brown,Frontend Developer,Bob Johnson,2021-02-16,
+9,David White,Product Owner,Carol King,2016-06-14,2020-09-25
+10,Laura Green,HR Specialist,Alice Smith,2018-09-07,2021-12-05
+11,Robert Black,Sales Manager,Bob Johnson,2020-04-01,2022-11-18
+12,Emily Blue,Marketing Coordinator,Carol King,2019-07-23,
+13,William Grey,IT Support,Alice Smith,2015-12-10,2021-05-15
+14,Olivia Purple,Customer Service,Bob Johnson,2018-01-17,2020-10-07
+15,Charles Orange,Finance Analyst,Carol King,2017-09-22,
+16,Emma Pink,Business Analyst,Alice Smith,2019-04-28,2022-06-30
+17,Henry Yellow,Legal Advisor,Bob Johnson,2016-11-11,2020-01-20
+18,Ava Red,Operations Manager,Carol King,2018-05-13,2022-04-10
+19,Mason White,Project Manager,Alice Smith,2020-06-25,
+20,Isabella Black,Technical Writer,Bob Johnson,2017-03-19,2021-08-30
+21,Liam Brown,Content Strategist,Carol King,2019-10-01,
+22,Sophia Green,Research Scientist,Alice Smith,2021-07-05,2023-04-20
+23,Noah Blue,Accountant,Bob Johnson,2018-12-15,
+24,Elijah Yellow,Office Manager,Carol King,2020-01-10,2022-09-14
+25,Lucas Red,Graphic Designer,Alice Smith,2019-03-22,2022-07-25
+26,Chloe White,Network Engineer,Carol King,2019-08-14,2021-10-30
+27,Ethan Black,Database Administrator,Bob Johnson,2020-05-15,2021-07-01
+28,Olivia Blue,System Analyst,Alice Smith,2017-12-01,2022-11-15
+29,Charlotte Green,Technical Support,Carol King,2021-01-01,
+30,Liam Purple,Security Specialist,Bob Johnson,2016-09-14,2020-03-25
+31,Ava Grey,Software Tester,Alice Smith,2018-04-01,2021-05-20
+32,William Yellow,Data Analyst,Carol King,2019-11-23,
+33,James Pink,Product Designer,Bob Johnson,2020-03-17,2021-08-15
+34,Sophia Red,Cloud Architect,Alice Smith,2017-06-05,2021-12-01
+35,Benjamin Orange,Machine Learning Engineer,Carol King,2019-09-12,
+36,Emily Black,Game Developer,Bob Johnson,2020-10-10,2021-12-01
+37,Michael Blue,Full Stack Developer,Alice Smith,2016-02-01,2020-08-30
+38,Abigail Green,Network Architect,Carol King,2019-05-22,
+39,Daniel Purple,System Administrator,Bob Johnson,2021-01-14,
+40,Elizabeth Yellow,AI Specialist,Alice Smith,2020-07-01,
