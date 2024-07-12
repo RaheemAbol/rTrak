@@ -89,7 +89,7 @@ This chart shows the retention rates of different managers over the specified nu
 
 ![Retention Tracking Chart](rtrak2.PNG)
 
-This chart shows the retention rates of different managers over the specified number of years.
+This chart shows the Position Allocation of different managers over the specified number of years.
 
 ## Contributing
 
