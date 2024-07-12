@@ -1,4 +1,3 @@
-Retention Tracking Application
 
 # Retention Tracking Application
 
