@@ -72,12 +72,13 @@ The CSV file should have the following columns:
 - `exit-date`: Date when the employee left (YYYY-MM-DD), leave blank if the employee is still employed
 
 Example CSV file:
+```
 id,name,position,manager,hire-date,exit-date
 1,John Doe,Software Engineer,Alice Smith,2020-01-15,2022-03-01
 2,Jane Roe,Product Manager,Bob Johnson,2019-05-20,
 3,Richard Roe,QA Engineer,Alice Smith,2021-08-01,2023-01-15
 4,Mary Major,UI/UX Designer,Carol King,2018-03-12,2021-11-30
-
+```
 
 ## Screenshot
 
