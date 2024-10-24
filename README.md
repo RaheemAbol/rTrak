@@ -5,7 +5,7 @@ This is a Spring Boot application for tracking employee retention rates. Users c
 
 ## Features
 
-- **User Registration and Login**: Users can register and log in (to be implemented with Spring Security).
+- **User Registration and Login**: Users can register and log in.
 - **CSV Upload**: Users can upload CSV files containing employee data.
 - **Data Visualization**: The application calculates retention rates and displays them in a bar chart using Chart.js.
 
